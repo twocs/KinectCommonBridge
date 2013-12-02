@@ -21,6 +21,8 @@ See the Apache 2 License for the specific language governing permissions and lim
 #include <objbase.h>
 #include <NuiApi.h>                // be sure to add Include Dir: $(KINECTSDK10_DIR)inc;$(KINECT_TOOLKIT_DIR)inc;
 
+//#include <memory>
+
 #ifdef _WIN32
     #ifdef DLL_EXPORTS
         #define KINECT_CB __declspec(dllexport)
